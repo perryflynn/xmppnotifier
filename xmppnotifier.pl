@@ -2,7 +2,7 @@
 
 # XMPP Notifier for new Emails
 # by Christian Blechert
-# 
+# https://github.com/perryflynn/xmppnotifier/
 
 use strict;
 use warnings;
