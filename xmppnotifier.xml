@@ -1,0 +1,41 @@
+<xmlnotify>
+  <!-- Example configuration -->
+  <imapaccounts>
+     <imapaccount>
+       <alias>accountone</alias>
+       <password>geheim</password>
+       <port>993</port>
+       <server>example.com</server>
+       <ssl>1</ssl>
+       <username>user</username>
+       <folderblacklist>
+         <folder>archiv.*</folder>
+         <folder>Sent.*</folder>
+         <folder>Drafts</folder>
+         <folder>Trash</folder>
+       </folderblacklist>
+     </imapaccount>
+     <imapaccount>
+       <alias>accounttwo</alias>
+       <password>geheim</password>
+       <port>993</port>
+       <server>imap.googlemail.com</server>
+       <ssl>1</ssl>
+       <username>user2</username>
+       <folderblacklist>
+         <folder>\[Gmail\].*</folder>
+       </folderblacklist>
+     </imapaccount>
+  </imapaccounts>
+  <lastcheck>Wed, 01 Dec 2014 19:55:50 +0000</lastcheck>
+  <xmpp>
+    <componentname>jabber.com</componentname>
+    <password>geheim</password>
+    <port>5222</port>
+    <recipient>mytarget@example.com</recipient>
+    <resource>notifybot</resource>
+    <server>example.com</server>
+    <tls>1</tls>
+    <username>notifybot</username>
+  </xmpp>
+</xmlnotify>
